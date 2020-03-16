@@ -1,0 +1,60 @@
+{
+	"geometry.Bskit": {
+		"texturewidth": 64,
+		"textureheight": 32,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 1, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-3.99826, 6.00175, -1], "size": [8, 12, 4], "uv": [16, 16]}
+				]
+			},
+			{
+				"name": "head",
+				"pivot": [0, 18, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-9.99998, 17.98953, -3.98953], "size": [8, 8, 8], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "leg0",
+				"pivot": [2, 6, 4],
+				"mirror": true,
+				"cubes": [
+					{"origin": [4.9825, 10.0087, 1.97382], "size": [4, 6, 4], "uv": [0, 16]}
+				]
+			},
+			{
+				"name": "leg1",
+				"pivot": [-2, 6, 4],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-4.01224, 6.99998, 1.98778], "size": [4, 6, 4], "uv": [0, 16]}
+				]
+			},
+			{
+				"name": "leg2",
+				"pivot": [2, 6, -4],
+				"mirror": true,
+				"cubes": [
+					{"origin": [3.99999, 0.00698, -6.00698], "size": [4, 6, 4], "uv": [0, 16]}
+				]
+			},
+			{
+				"name": "leg3",
+				"pivot": [-2, 6, -4],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-5.99999, 5.99476, -3.99476], "size": [1, 1, 1], "uv": [0, 0], "mirror": false},
+					{"origin": [-6.99999, -0.00524, -5.99476], "size": [4, 6, 4], "uv": [0, 16]}
+				]
+			}
+		]
+	}
+}
